@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image prop_ex_molotov3.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 6
+	Usage DIFFUSE
+	UsageFlags -
+	ExtraFlags 0
+}

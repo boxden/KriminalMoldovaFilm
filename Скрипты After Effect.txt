@@ -1,0 +1,8 @@
+Скрипты для After Effect
+
+1. 3D Сцена из фотографии по-быстрому 
+
+// Камера автоматически будет масштабировать все картинки 
+cam = thisComp.layer("Camera 1"); 
+distance = length(sub(position, cam.position));
+scale * distance / cam.zoom;

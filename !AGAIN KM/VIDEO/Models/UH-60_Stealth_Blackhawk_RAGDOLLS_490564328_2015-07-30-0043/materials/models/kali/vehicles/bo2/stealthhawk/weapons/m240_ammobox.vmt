@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Kali\vehicles\BO2\StealthHawk\Weapons\M240_AmmoBox_C"
+	"$bumpmap" "models\Kali\vehicles\BO2\StealthHawk\Weapons\M240_AmmoBox_N"
+
+	"$nocull" "1"
+	"$model" "1"
+
+	"$ambientocclusion" "1"
+
+	"$phong" "1"
+	"$phongboost" "0.15"
+	"$phongexponent" "5"
+	"$phongfresnelranges" "[ 0.25 0.5 0.75 ]"
+	"$phongalbedotint" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "125"
+	"$rimlightboost" "0.075"
+
+	"$detail" "models\Kali\vehicles\BO2\StealthHawk\Weapons\M240_AmmoBox_Detail"
+	"$detailscale" "1"
+	"$detailblendfactor" "0.5"
+	"$detailblendmode" "0"
+}

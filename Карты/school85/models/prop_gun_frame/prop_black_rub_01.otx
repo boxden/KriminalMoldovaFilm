@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image prop_black_rub_01.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 6
+	Usage DIFFUSE
+	UsageFlags NOT_HALF HD_SPLIT
+	ExtraFlags 0
+}

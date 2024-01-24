@@ -1,0 +1,114 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_black_rub_01.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_idol_case_01.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+		}
+		normal.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ex_pe.otx
+			BumpSampler prop_gun_frame\prop_ex_pe_n.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			Bumpiness 1.00000000
+			SpecularIntensityMult 0.12500000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ammo_pack_03.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ex_m18_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+		}
+		normal_spec.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ex_m26.otx
+			BumpSampler prop_gun_frame\prop_ex_m26.otx
+			SpecSampler prop_gun_frame\prop_ex_m26.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+			Bumpiness 0.01000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.01000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.97000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ammo_pack_02.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+		}
+		spec.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_lr_rpg_rocket2.otx
+			SpecSampler prop_gun_frame\prop_lr_rpg_rocket2.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 0.00000000 0.00000000
+			SpecularIntensityMult 0.80000000
+			SpecularFalloffMult 100.00000000
+			SpecularFresnel 0.80000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ammo_pack_01.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			WetnessMultiplier 0.00000000
+		}
+		spec.sps
+		{
+			DiffuseSampler prop_gun_frame\prop_ex_molotov3.otx
+			SpecSampler prop_gun_frame\prop_ex_molotov3_s.otx
+			HardAlphaBlend 1.00000000
+			UseTessellation 0.00000000
+			SpecMapIntMask 1.00000000 1.00000000 1.00000000
+			SpecularIntensityMult 1.00000000
+			SpecularFalloffMult 256.00000000
+			SpecularFresnel 0.96000000
+		}
+	}
+	Skeleton prop_gun_frame\prop_gun_frame.skel
+	LodGroup
+	{
+		Center -0.01788000 -0.00456700 -0.00141200
+		Radius 1.05331100
+		AABBMin -0.77520700 -0.44439800 -0.58662200
+		AABBMax 0.73944600 0.43526300 0.58379800
+		High 9998.00000000
+		{
+			prop_gun_frame\prop_gun_frame_high.mesh 0
+		}
+		Med 9998.00000000
+		Low 9998.00000000
+		Vlow 9998.00000000
+	}
+	Joints null
+	Light null
+	Bound prop_gun_frame\prop_gun_frame.bound
+}
